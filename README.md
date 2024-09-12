@@ -1,6 +1,6 @@
 # BASIC-CRUD-FLUTTER
 
-![BASIC-CRUD-FLUTTER](assets/IMAGEM.png)
+![BASIC-CRUD-FLUTTER](./assets/CRUD.png)
 
 **BASIC-CRUD-FLUTTER** é um projeto Flutter que demonstra a implementação básica de operações CRUD (Create, Read, Update, Delete). Este exemplo é ideal para quem deseja entender como criar um aplicativo Flutter que interage com um banco de dados local para gerenciar dados.
 
@@ -40,7 +40,7 @@ Para começar a usar o **BASIC-CRUD-FLUTTER**, siga estas etapas:
 
 ## 📷 Tela do Aplicativo
 
-![Screenshot](assets/IMAGEM.png)
+![Screenshot](./assets/IMAGEM.png)
 
 ## 🤝 Como Contribuir
 
