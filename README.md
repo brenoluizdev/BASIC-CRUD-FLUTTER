@@ -1,6 +1,13 @@
-![BASIC-CRUD-FLUTTER](https://github.com/brenoluizdev/BASIC-CRUD-FLUTTER/blob/main/assets/CRUD.jpg?raw=true)
+# BASIC-CRUD-FLUTTER
 
-**BASIC-CRUD-FLUTTER** é um projeto Flutter que demonstra a implementação básica de operações CRUD (Create, Read, Update, Delete). Este exemplo é ideal para quem deseja entender como criar um aplicativo Flutter que interage com um banco de dados local para gerenciar dados.
+#### Video Demo: https://youtu.be/LF_BPjPnUmI
+
+#### Description:
+BASIC-CRUD-FLUTTER é um projeto desenvolvido em Flutter que demonstra a implementação básica de operações CRUD (Create, Read, Update, Delete). Este projeto serve como um exemplo didático para aprender a criar aplicativos Flutter que interagem com um banco de dados local (SQLite) para gerenciamento de dados.  
+
+O aplicativo permite ao usuário adicionar, visualizar, atualizar e deletar registros de forma simples e intuitiva, enquanto explora conceitos importantes do Flutter como gerenciamento de estado com Provider e persistência de dados com SQLite.
+
+---
 
 ## 🌟 Funcionalidades
 
@@ -8,21 +15,35 @@
 - **Read**: Consulte e visualize registros existentes.
 - **Update**: Atualize registros existentes.
 - **Delete**: Remova registros do banco de dados.
+- **Interface intuitiva**: Layout limpo e simples para melhor experiência do usuário.
+
+---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Flutter**: Framework de UI para criar aplicativos nativos compilados.
+- **Flutter**: Framework para criar aplicativos nativos compilados.
 - **Dart**: Linguagem de programação utilizada pelo Flutter.
-- **Provider**: Gerenciamento de estado.
-- **SQLite**: Banco de dados local (opcional, se aplicável).
+- **Provider**: Gerenciamento de estado reativo.
+- **SQLite**: Banco de dados local.
 
-## 🚀 Como Começar
+---
 
-Para começar a usar o **BASIC-CRUD-FLUTTER**, siga estas etapas:
+## 📂 Estrutura do Projeto
+
+- **main.dart**: Ponto de entrada do aplicativo.
+- **screens/**: Contém as telas principais como `HomeScreen`, `AddScreen`, `UpdateScreen`.
+- **models/**: Definição das classes de dados (modelos).
+- **providers/**: Gerenciamento do estado com Provider.
+- **db/**: Configuração e funções de acesso ao banco de dados SQLite.
+- **assets/**: Imagens e recursos visuais do aplicativo.
+
+---
+
+## 🚀 Como Rodar
 
 1. **Clone o Repositório**:
     ```bash
-    git clone https://github.com/SEU_USUARIO/BASIC-CRUD-FLUTTER.git
+    git clone https://github.com/obrenoluiz/BASIC-CRUD-FLUTTER.git
     cd BASIC-CRUD-FLUTTER
     ```
 
@@ -36,30 +57,40 @@ Para começar a usar o **BASIC-CRUD-FLUTTER**, siga estas etapas:
     flutter run
     ```
 
-## 📷 Tela do Aplicativo
+---
 
-![Screenshot](https://github.com/brenoluizdev/BASIC-CRUD-FLUTTER/blob/main/assets/IMAGEM.PNG?raw=true)
+## 📷 Screenshots
 
-## 🤝 Como Contribuir
-
-Se você deseja contribuir para o projeto, siga estas etapas:
-
-1. **Faça um Fork do Repositório**.
-2. **Crie uma Branch** para sua feature (`git checkout -b feature/nova-feature`).
-3. **Faça Commit das Suas Alterações** (`git commit -am 'Adiciona nova feature'`).
-4. **Faça Push para a Branch** (`git push origin feature/nova-feature`).
-5. **Abra um Pull Request**.
-
-## 📚 Links Úteis
-
-- [Documentação do Flutter](https://flutter.dev/docs)
-- [Documentação do Dart](https://dart.dev/guides)
-
-## 📝 Licença
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+![Tela Inicial](https://github.com/brenoluizdev/BASIC-CRUD-FLUTTER/blob/main/assets/IMAGEM.PNG?raw=true)
 
 ---
 
-Sinta-se à vontade para explorar, contribuir e adaptar o projeto conforme suas necessidades!
+## 📝 Decisões de Design
 
+- Escolhi **Provider** pelo seu padrão simples de gerenciamento de estado para projetos educativos.  
+- SQLite foi usado para **persistência local** dos dados, mantendo o projeto independente de servidores externos.  
+- A interface foi projetada para ser **clara e intuitiva**, adequada para usuários iniciantes.  
+
+---
+
+## 🤝 Como Contribuir
+
+Se desejar contribuir:  
+1. Faça um fork do repositório.  
+2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`).  
+3. Faça commit das alterações (`git commit -am 'Adiciona nova feature'`).  
+4. Faça push para a branch (`git push origin feature/nova-feature`).  
+5. Abra um Pull Request.
+
+---
+
+## 📚 Links Úteis
+
+- [Flutter Documentation](https://flutter.dev/docs)
+- [Dart Documentation](https://dart.dev/guides)
+
+---
+
+## 📝 Licença
+
+Licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
